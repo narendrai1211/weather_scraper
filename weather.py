@@ -38,6 +38,7 @@ def plot_weather(list_day_x, list_temp_y):
         int_temp_list.append(int(i))
     plt.plot(list_day_x, int_temp_list)
     plt.show()
+    plt.close()
 
 
 list_day_each, list_behave_each, list_temp_each = get_today_weather()
